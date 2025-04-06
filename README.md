@@ -14,6 +14,11 @@
   Get instant answers to your agricultural queries via a specialized AI assistant.
 
 
+- 💬 **Backend-Link**
+
+  [https://github.com/pratyush-1327/agrisense_backend](https://github.com/pratyush-1327/agrisense_backend)
+
+
 ## Dependencies
 
 - `flutter`: The core framework for building cross-platform mobile apps.

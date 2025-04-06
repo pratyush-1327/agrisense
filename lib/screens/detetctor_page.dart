@@ -82,7 +82,46 @@ class _DetetctorPageState extends State<DetetctorPage> {
                   Text(
                     "Confidence: ${_confidence?.toStringAsFixed(2)}%",
                     style: const TextStyle(fontSize: 16),
-                  )
+                  ),
+                  if (_result == "Strawberry___Leaf_scorch")
+                    Column(
+                      children: [
+                        const Text(
+                          "Suggestions :",
+                          style: TextStyle(fontSize: 24, color: Colors.black),
+                        ),
+                        const Text(
+                          " 🍓 Use resistant strawberry varieties like 'Earliglow' or 'Surecrop' to reduce the risk of infection.\n ✂️ Remove and destroy infected leaves as soon as symptoms (purple or dark brown spots, scorched edges) appear to stop spread.\n 🌧️ Avoid overhead watering; use drip irrigation to prevent moisture buildup on leaves.\n",
+                          style: TextStyle(fontSize: 18, color: Colors.black),
+                        ),
+                      ],
+                    ),
+                  if (_result == "Apple___Apple_scab")
+                    Column(
+                      children: [
+                        const Text(
+                          "Suggestions :",
+                          style: TextStyle(fontSize: 24, color: Colors.black),
+                        ),
+                        const Text(
+                          " 🍎 Remove galls from infected cedar trees within a 5-mile radius during late fall or early spring to reduce spore dispersal.\n 🌳 Prune infected apple branches to remove visible signs of the disease.\n 🍄 Apply fungicide treatments containing myclobutanil or propiconazole during early stages of infection, following label instructions.\n",
+                          style: TextStyle(fontSize: 18, color: Colors.black),
+                        ),
+                      ],
+                    ),
+                  if (_result == "Peach___Bacterial_spot")
+                    Column(
+                      children: [
+                        const Text(
+                          "Suggestions :",
+                          style: TextStyle(fontSize: 24, color: Colors.black),
+                        ),
+                        const Text(
+                          " 🍑 Prune infected branches during dormancy to remove sources of bacteria.\n 🍂 Rake and destroy fallen leaves to reduce overwintering inoculum.\n 🚿 Apply copper-based bactericides in early spring before bud break, following label instructions.\n",
+                          style: TextStyle(fontSize: 18, color: Colors.black),
+                        ),
+                      ],
+                    ),
                 ],
               )
           ],
