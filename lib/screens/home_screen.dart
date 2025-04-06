@@ -1,3 +1,4 @@
+import 'package:agrisense/screens/detetctor_page.dart';
 import 'package:agrisense/screens/story_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -19,6 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final List<Widget> _screens = [
     const StoryScreen(),
     const ChatScreen(),
+    DetetctorPage(),
     const ChatHistoryScreen(),
     const ProfileScreen(),
   ];
@@ -53,6 +55,10 @@ class _HomeScreenState extends State<HomeScreen> {
               NavigationDestination(
                 icon: Icon(CupertinoIcons.chat_bubble_2),
                 label: 'Chat',
+              ),
+              NavigationDestination(
+                icon: Icon(CupertinoIcons.camera),
+                label: 'AI Model',
               ),
               NavigationDestination(
                 icon: Icon(Icons.history),
