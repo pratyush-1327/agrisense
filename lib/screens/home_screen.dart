@@ -35,6 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
             children: _screens,
             onPageChanged: (index) {
               chatProvider.setCurrentIndex(newIndex: index);
+              setState(() {});
             },
           ),
           bottomNavigationBar: NavigationBar(
