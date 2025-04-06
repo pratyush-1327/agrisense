@@ -18,7 +18,9 @@
 
   [https://github.com/pratyush-1327/agrisense_backend](https://github.com/pratyush-1327/agrisense_backend)
 
-
+<p align="center">
+  <a href="" target="_blank"><img src="https://github.com/pratyush-1327/agrisense/blob/48659c166a0fbbde13bcf105dc30d10ff11aec00/assets/screenshots/Screenshot_20250406_233436.jpg?raw=true" /></a>
+</p>
 ## Dependencies
 
 - `flutter`: The core framework for building cross-platform mobile apps.
