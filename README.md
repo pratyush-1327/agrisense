@@ -18,44 +18,22 @@
 
   [https://github.com/pratyush-1327/agrisense_backend](https://github.com/pratyush-1327/agrisense_backend)
 
-<p align="center">
-  <a href="" target="_blank"><img src="https://github.com/pratyush-1327/agrisense/blob/48659c166a0fbbde13bcf105dc30d10ff11aec00/assets/screenshots/Screenshot_20250406_233436.jpg?raw=true" /></a>
-</p>
-
-
-<p align="center">
-  <a href="" target="_blank"><img src="https://github.com/pratyush-1327/agrisense/blob/main/assets/screenshots/Screenshot_20250406_233440.jpg?raw=true" /></a>
-</p>
-
-
-<p align="center">
-  <a href="" target="_blank"><img src="https://github.com/pratyush-1327/agrisense/blob/main/assets/screenshots/Screenshot_20250406_233449.jpg?raw=true" /></a>
-</p>
-
-
-<p align="center">
-  <a href="" target="_blank"><img src="https://github.com/pratyush-1327/agrisense/blob/main/assets/screenshots/Screenshot_20250406_233457.jpg?raw=true" /></a>
-</p>
-
-
-<p align="center">
-  <a href="" target="_blank"><img src="https://github.com/pratyush-1327/agrisense/blob/main/assets/screenshots/Screenshot_20250406_233507.jpg?raw=true" /></a>
-</p>
-
-
-<p align="center">
-  <a href="" target="_blank"><img src="https://github.com/pratyush-1327/agrisense/blob/main/assets/screenshots/Screenshot_20250406_233550.jpg?raw=true" /></a>
-</p>
-
-
-<p align="center">
-  <a href="" target="_blank"><img src="https://github.com/pratyush-1327/agrisense/blob/main/assets/screenshots/Screenshot_20250406_233618.jpg?raw=true" /></a>
-</p>
-
-
-<p align="center">
-  <a href="" target="_blank"><img src="https://github.com/pratyush-1327/agrisense/blob/main/assets/screenshots/Screenshot_20250406_233623.jpg?raw=true" /></a>
-</p>
+<table>
+  <tr>
+    <td><img src="https://github.com/pratyush-1327/agrisense/blob/48659c166a0fbbde13bcf105dc30d10ff11aec00/assets/screenshots/Screenshot_20250406_233436.jpg?raw=true" width="200"></td>
+    <td><img src="https://github.com/pratyush-1327/agrisense/blob/main/assets/screenshots/Screenshot_20250406_233440.jpg?raw=true" width="200"></td>
+    <td><img src="https://github.com/pratyush-1327/agrisense/blob/main/assets/screenshots/Screenshot_20250406_233449.jpg?raw=true" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/pratyush-1327/agrisense/blob/main/assets/screenshots/Screenshot_20250406_233457.jpg?raw=true" width="200"></td>
+    <td><img src="https://github.com/pratyush-1327/agrisense/blob/main/assets/screenshots/Screenshot_20250406_233507.jpg?raw=true" width="200"></td>
+    <td><img src="https://github.com/pratyush-1327/agrisense/blob/main/assets/screenshots/Screenshot_20250406_233550.jpg?raw=true" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/pratyush-1327/agrisense/blob/main/assets/screenshots/Screenshot_20250406_233618.jpg?raw=true" width="200"></td>
+    <td><img src="https://github.com/pratyush-1327/agrisense/blob/main/assets/screenshots/Screenshot_20250406_233623.jpg?raw=true" width="200"></td>
+  </tr>
+</table>
 ## Dependencies
 
 - `flutter`: The core framework for building cross-platform mobile apps.
