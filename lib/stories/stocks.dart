@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:easy_localization/easy_localization.dart'; // Import easy_localization
 
 class Stocks extends StatelessWidget {
   const Stocks({super.key});

@@ -4,6 +4,7 @@ import 'package:agrisense/providers/chat_provider.dart';
 import 'package:agrisense/utility/animated_dialog.dart';
 import 'package:agrisense/widgets/bottom_chat_field.dart';
 import 'package:agrisense/widgets/chat_messages.dart';
+import 'package:easy_localization/easy_localization.dart'; // Import easy_localization
 import 'package:provider/provider.dart';
 
 class ChatScreen extends StatefulWidget {
@@ -55,8 +56,8 @@ class _ChatScreenState extends State<ChatScreen> {
           appBar: AppBar(
             backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
             centerTitle: true,
-            title: const Text(
-              'Chat with AgriSense AI',
+            title: Text(
+              'chatScreenTitle'.tr(), // Translate
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             actions: [
@@ -70,9 +71,9 @@ class _ChatScreenState extends State<ChatScreen> {
                         // show my animated dialog to start new chat
                         showMyAnimatedDialog(
                           context: context,
-                          title: 'Start New Chat',
-                          content: 'Are you sure you want to start a new chat?',
-                          actionText: 'Yes',
+                          title: 'newChatDialogTitle'.tr(), // Translate
+                          content: 'newChatDialogContent'.tr(), // Translate
+                          actionText: 'newChatDialogActionYes'.tr(), // Translate
                           onActionPressed: (value) async {
                             if (value) {
                               // prepare chat room
@@ -94,8 +95,8 @@ class _ChatScreenState extends State<ChatScreen> {
                 children: [
                   Expanded(
                     child: chatProvider.inChatMessages.isEmpty
-                        ? const Center(
-                            child: Text('No messages yet'),
+                        ? Center(
+                            child: Text('noMessagesYet'.tr()), // Translate
                           )
                         : ChatMessages(
                             scrollController: _scrollController,

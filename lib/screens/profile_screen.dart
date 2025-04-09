@@ -7,6 +7,7 @@ import 'package:agrisense/hive/settings.dart';
 import 'package:agrisense/providers/settings_provider.dart';
 import 'package:agrisense/widgets/build_display_image.dart';
 import 'package:agrisense/widgets/settings_tile.dart';
+import 'package:easy_localization/easy_localization.dart'; // Import easy_localization
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
@@ -74,7 +75,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Profile'),
+        title: Text('profileScreenTitle'.tr()), // Translate
         centerTitle: true,
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         actions: [
@@ -126,7 +127,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         SettingsTile(
                           // icon: Icons.mic,
                           icon: CupertinoIcons.mic,
-                          title: 'Enable AI voice',
+                          title: 'enableAIVoice'.tr(), // Translate
                           value: false,
                           onChanged: (value) {
                             final settingProvider =
@@ -143,7 +144,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         SettingsTile(
                           // icon: Icons.light_mode,
                           icon: CupertinoIcons.sun_max,
-                          title: 'Theme',
+                          title: 'theme'.tr(), // Translate
                           value: false,
                           onChanged: (value) {
                             final settingProvider =
@@ -162,7 +163,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         // ai voice
                         SettingsTile(
                             icon: CupertinoIcons.mic,
-                            title: 'Enable AI voice',
+                            title: 'enableAIVoice'.tr(), // Translate
                             value: settings!.shouldSpeak,
                             onChanged: (value) {
                               final settingProvider =
@@ -179,7 +180,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           icon: settings.isDarkTheme
                               ? CupertinoIcons.moon_fill
                               : CupertinoIcons.sun_max_fill,
-                          title: 'Theme',
+                          title: 'theme'.tr(), // Translate
                           value: settings.isDarkTheme,
                           onChanged: (value) {
                             final settingProvider =

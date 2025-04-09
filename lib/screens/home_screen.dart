@@ -1,5 +1,6 @@
 import 'package:agrisense/screens/detetctor_page.dart';
 import 'package:agrisense/screens/story_screen.dart';
+import 'package:easy_localization/easy_localization.dart'; // Import easy_localization
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:agrisense/providers/chat_provider.dart';
@@ -30,6 +31,16 @@ class _HomeScreenState extends State<HomeScreen> {
     return Consumer<ChatProvider>(
       builder: (context, chatProvider, child) {
         return Scaffold(
+          appBar: AppBar( // Add AppBar
+            title: Text('appTitle'.tr()), // Use translated title
+            actions: [
+              IconButton(
+                icon: const Icon(Icons.language),
+                tooltip: 'selectLanguage'.tr(),
+                onPressed: () => _showLanguageDialog(context),
+              ),
+            ],
+          ),
           body: PageView(
             controller: chatProvider.pageController,
             children: _screens,
@@ -48,29 +59,68 @@ class _HomeScreenState extends State<HomeScreen> {
               chatProvider.pageController.jumpToPage(index);
               setState(() {});
             },
-            destinations: const [
+            destinations: [ // Remove const keyword here
               NavigationDestination(
                 icon: Icon(CupertinoIcons.money_dollar),
-                label: 'Stories',
+                label: 'Stories'.tr(), // Translate label
               ),
               NavigationDestination(
                 icon: Icon(CupertinoIcons.chat_bubble_2),
-                label: 'Chat',
+                label: 'Chat'.tr(), // Translate label
               ),
               NavigationDestination(
                 icon: Icon(CupertinoIcons.camera),
-                label: 'AI Model',
+                label: 'AI Model'.tr(), // Translate label
               ),
               NavigationDestination(
                 icon: Icon(Icons.history),
-                label: 'Chat History',
+                label: 'Chat History'.tr(), // Translate label
               ),
               NavigationDestination(
                 icon: Icon(CupertinoIcons.person),
-                label: 'Profile',
+                label: 'Profile'.tr(), // Translate label
               ),
             ],
           ),
+        );
+      },
+    );
+  }
+
+  // Method to show the language selection dialog
+  void _showLanguageDialog(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (BuildContext dialogContext) {
+        return AlertDialog(
+          title: Text('selectLanguage'.tr()),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              ListTile(
+                title: Text('english'.tr()),
+                onTap: () {
+                  context.setLocale(const Locale('en'));
+                  Navigator.of(dialogContext).pop();
+                },
+              ),
+              ListTile(
+                title: Text('hindi'.tr()),
+                onTap: () {
+                  context.setLocale(const Locale('hi'));
+                  Navigator.of(dialogContext).pop();
+                },
+              ),
+            ],
+          ),
+          actions: <Widget>[
+            TextButton(
+              child: Text('cancel'.tr()),
+              onPressed: () {
+                Navigator.of(dialogContext).pop();
+              },
+            ),
+          ],
         );
       },
     );

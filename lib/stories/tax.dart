@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:easy_localization/easy_localization.dart'; // Import easy_localization
 
 class Tax extends StatelessWidget {
   const Tax({super.key});
@@ -9,7 +10,7 @@ class Tax extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
         // centerTitle: true,
-        title: const Text('Smart Irrigation'),
+        title: Text('smartIrrigationStoryTitle'.tr()), // Translate
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -43,12 +44,12 @@ class Tax extends StatelessWidget {
                     spacing: 20,
                     children: [
                       Text(
-                        'Smart Irrigation: Drip vs. Flooding',
+                        'smartIrrigationStorySubtitle'.tr(), // Translate
                         style: TextStyle(
                             fontSize: 33, fontWeight: FontWeight.w400),
                       ),
                       Text(
-                        'Water is a precious resource, and efficient irrigation techniques can significantly impact crop health and yield. Many farmers still rely on flood irrigation, where water is spread across the field, leading to wastage and soil erosion.\nAn alternative method, Drip irrigation is especially useful for crops like tomatoes, chilies, and fruit trees, where controlled water delivery improves both quality and yield. Switching to drip irrigation may require an initial investment, but it leads to long-term savings and better crop production.',
+                        'smartIrrigationStoryContent'.tr(), // Translate
                         style: TextStyle(fontSize: 20),
                       )
                     ],

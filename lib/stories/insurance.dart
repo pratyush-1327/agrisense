@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:easy_localization/easy_localization.dart'; // Import easy_localization
 
 class Insurance extends StatelessWidget {
   const Insurance({super.key});
@@ -9,7 +10,7 @@ class Insurance extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
         // centerTitle: true,
-        title: const Text('Soil Health'),
+        title: Text('insuranceStoryTitle'.tr()), // Translate
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -43,12 +44,12 @@ class Insurance extends StatelessWidget {
                     spacing: 20,
                     children: [
                       Text(
-                        'Soil Health: The Power of Green Manure',
+                        'insuranceStorySubtitle'.tr(), // Translate
                         style: TextStyle(
                             fontSize: 33, fontWeight: FontWeight.w400),
                       ),
                       Text(
-                        'Soil health is the foundation of sustainable farming. Over time, excessive use of chemical fertilizers depletes soil nutrients, making it hard and unproductive. One effective way to restore soil fertility is through green manure—planting leguminous crops like clover, cowpea, or dhaincha before the main crop season.\nTo use green manure, plant legumes in the off-season and allow them to grow for 6–8 weeks before plowing them back into the soil. Over time, this practice leads to healthier, more fertile farmland, reducing dependency on costly fertilizers and improving crop yields naturally.',
+                        'insuranceStoryContent'.tr(), // Translate
                         style: TextStyle(fontSize: 20),
                       )
                     ],
