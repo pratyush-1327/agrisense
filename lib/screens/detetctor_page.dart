@@ -104,7 +104,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          "suggestionAppleScab".tr(),
+                          "suggestionAppleScabText".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -117,7 +117,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          "suggestionPeachBacterialSpot".tr(),
+                          "suggestionPeachBacterialSpotText".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -130,7 +130,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          "suggestionAppleBlackRot".tr(),
+                          "suggestionAppleBlackRotText".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -143,7 +143,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          "suggestionAppleCedarAppleRust".tr(),
+                          "suggestionAppleCedarAppleRustText".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -156,7 +156,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          "health".tr(),
+                          "suggestionAppleHealthyText".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -169,7 +169,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          "health".tr(),
+                          "suggestionBlueberryHealthyText".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -182,7 +182,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          "suggestionCherryPowderyMildew".tr(),
+                          "suggestionCherryPowderyMildewText".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -195,7 +195,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          "health".tr(),
+                          "suggestionCherryHealthyText".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -261,7 +261,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🍇 Prune and destroy infected canes and mummified fruit to reduce fungal inoculum.\n 🍂 Rake and remove fallen leaves to eliminate overwintering sites for the fungus.\n 🍄 Apply fungicide treatments containing captan or mancozeb during early stages of infection, following label instructions.\n",
+                          "suggestionGrapeBlackRot".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -274,7 +274,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🍇 Prune infected cordons and trunks to remove diseased wood.\n 🐛 Protect pruning wounds with wound protectants to prevent fungal infection.\n 🌿 Maintain vine vigor through proper watering, fertilization, and soil management practices.\n",
+                          "suggestionGrapeEsca".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -287,7 +287,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🍇 Prune and destroy infected leaves and canes to reduce fungal inoculum.\n 🚿 Avoid overhead watering to minimize leaf wetness and humidity.\n 🍄 Apply fungicide treatments containing copper-based compounds during early stages of infection, following label instructions.\n",
+                          "suggestionGrapeLeafBlight".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -300,7 +300,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🍇 Ensure proper soil drainage and pH levels suitable for grape growth.\n 💧 Water plants regularly, especially during dry periods, to maintain adequate soil moisture.\n 🌿 Prune vines annually to remove dead, damaged, or diseased wood and promote air circulation.\n",
+                          "health".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -313,7 +313,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🍊 Remove and destroy infected trees to prevent further spread of the disease.\n 🐛 Control Asian citrus psyllids, the insect vector of Huanglongbing, through insecticide applications.\n 🌿 Plant disease-free citrus trees from reputable nurseries.\n",
+                          "suggestionOrangeHaunglongbing".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -326,7 +326,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🍑 Maintain tree vigor through proper watering, fertilization, and pruning practices.\n 🐛 Monitor for pests and diseases regularly, and implement appropriate control measures when necessary.\n 🍂 Remove fallen leaves and debris from around the base of the tree to reduce overwintering sites for pathogens.\n",
+                          "health".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -339,7 +339,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🌶️ Use disease-free transplants to prevent introduction of the pathogen.\n 🚿 Avoid overhead watering to minimize leaf wetness and humidity.\n 🍄 Apply copper-based bactericides in early spring before bud break, following label instructions.\n",
+                          "suggestionPepperBacterialSpot".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -352,7 +352,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🌶️ Ensure proper soil drainage and fertility to promote healthy plant growth.\n 💧 Water plants regularly, especially during dry periods, to maintain adequate soil moisture.\n 🌿 Monitor for pests and diseases regularly, and implement appropriate control measures when necessary.\n",
+                          "health".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -365,7 +365,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🥔 Select resistant potato varieties to reduce disease severity.\n 🔄 Rotate crops with non-host plants to break the disease cycle.\n 🍄 Apply fungicide treatments containing chlorothalonil or mancozeb during early stages of infection, following label instructions.\n",
+                          "suggestionPotatoEarlyBlight".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -378,11 +378,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          "Suggestions :.".tr(),
-                          style: TextStyle(fontSize: 24, color: Colors.black),
-                        ),
-                        Text(
-                          " 🥔 Choose resistant potato varieties to reduce disease severity.\n 🚿 Avoid overhead watering to minimize leaf wetness and humidity.\n 🍄 Apply fungicide treatments containing chlorothalonil or mancozeb during early stages of infection, following label instructions.\n",
+                          "suggestionPotatoLateBlight".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -395,7 +391,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🥔 Ensure proper soil drainage and fertility to promote healthy plant growth.\n 💧 Water plants regularly, especially during dry periods, to maintain adequate soil moisture.\n 🌿 Monitor for pests and diseases regularly, and implement appropriate control measures when necessary.\n",
+                          "health".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -408,7 +404,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🌿 Ensure proper soil drainage and fertility to promote healthy plant growth.\n 💧 Water plants regularly, especially during dry periods, to maintain adequate soil moisture.\n 🌿 Prune canes annually to remove dead, damaged, or diseased wood and promote air circulation.\n",
+                          "health".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -421,7 +417,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🌱 Ensure proper soil drainage and fertility to promote healthy plant growth.\n 💧 Water plants regularly, especially during dry periods, to maintain adequate soil moisture.\n 🌿 Monitor for pests and diseases regularly, and implement appropriate control measures when necessary.\n",
+                          "health".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -434,7 +430,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🎃 Prune plants to improve air circulation and reduce humidity within the canopy.\n 🚿 Avoid overhead watering to minimize leaf wetness and humidity.\n 🍄 Apply fungicide treatments containing sulfur or copper-based compounds during early stages of infection, following label instructions.\n",
+                          "suggestionSquashPowderyMildew".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -447,7 +443,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🍓 Ensure proper soil drainage and fertility to promote healthy plant growth.\n 💧 Water plants regularly, especially during dry periods, to maintain adequate soil moisture.\n 🌿 Monitor for pests and diseases regularly, and implement appropriate control measures when necessary.\n",
+                          "health".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -460,7 +456,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🍅 Use disease-free transplants to prevent introduction of the pathogen.\n 🚿 Avoid overhead watering to minimize leaf wetness and humidity.\n 🍄 Apply copper-based bactericides in early spring before bud break, following label instructions.\n",
+                          "suggestionTomatoBacterialSpot".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -473,7 +469,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🍅 Select resistant tomato varieties to reduce disease severity.\n 🔄 Rotate crops with non-host plants to break the disease cycle.\n 🍄 Apply fungicide treatments containing chlorothalonil or mancozeb during early stages of infection, following label instructions.\n",
+                          "suggestionTomatoEarlyBlight".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -486,7 +482,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🍅 Choose resistant tomato varieties to reduce disease severity.\n 🚿 Avoid overhead watering to minimize leaf wetness and humidity.\n 🍄 Apply fungicide treatments containing chlorothalonil or mancozeb during early stages of infection, following label instructions.\n",
+                          "suggestionTomatoLateBlight".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -499,7 +495,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🍅 Prune plants to improve air circulation and reduce humidity within the canopy.\n 🚿 Avoid overhead watering to minimize leaf wetness and humidity.\n 🍄 Apply fungicide treatments containing chlorothalonil or mancozeb during early stages of infection, following label instructions.\n",
+                          "suggestionTomatoLeafMold".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -512,7 +508,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🍅 Prune and destroy infected leaves to reduce fungal inoculum.\n 🚿 Avoid overhead watering to minimize leaf wetness and humidity.\n 🍄 Apply fungicide treatments containing chlorothalonil or mancozeb during early stages of infection, following label instructions.\n",
+                          "suggestionTomatoSeptoriaLeafSpot".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -526,7 +522,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🍅 Introduce predatory mites to control spider mite populations.\n 🚿 Apply strong jets of water to dislodge spider mites from plant foliage.\n 🌿 Use insecticidal soap or horticultural oil to suffocate spider mites, following label instructions.\n",
+                          "suggestionTomatoSpiderMites".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -539,7 +535,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🍅 Prune and destroy infected leaves to reduce fungal inoculum.\n 🚿 Avoid overhead watering to minimize leaf wetness and humidity.\n 🍄 Apply fungicide treatments containing chlorothalonil or mancozeb during early stages of infection, following label instructions.\n",
+                          "suggestionTomatoTargetSpot".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -552,7 +548,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🍅 Remove and destroy infected plants to prevent further spread of the virus.\n 🐛 Control whiteflies, the insect vector of Tomato Yellow Leaf Curl Virus, through insecticide applications.\n 🌿 Use insect-proof screens in greenhouses to exclude whiteflies.\n",
+                          "suggestionTomatoYellowLeafCurlVirus".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -565,7 +561,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🍅 Remove and destroy infected plants to prevent further spread of the virus.\n 🌿 Disinfect tools and equipment regularly to prevent mechanical transmission of the virus.\n 🐛 Control aphids, which can transmit Tomato Mosaic Virus, through insecticide applications.\n",
+                          "suggestionTomatoMosaicVirus".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],
@@ -578,7 +574,7 @@ class _DetetctorPageState extends State<DetetctorPage> {
                           style: TextStyle(fontSize: 24, color: Colors.black),
                         ),
                         Text(
-                          " 🍅 Ensure proper soil drainage and fertility to promote healthy plant growth.\n 💧 Water plants regularly, especially during dry periods, to maintain adequate soil moisture.\n 🌿 Monitor for pests and diseases regularly, and implement appropriate control measures when necessary.\n",
+                          "health".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ],

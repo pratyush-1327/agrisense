@@ -31,7 +31,8 @@ class _HomeScreenState extends State<HomeScreen> {
     return Consumer<ChatProvider>(
       builder: (context, chatProvider, child) {
         return Scaffold(
-          appBar: AppBar( // Add AppBar
+          appBar: AppBar(
+            // Add AppBar
             title: Text('appTitle'.tr()), // Use translated title
             actions: [
               IconButton(
@@ -59,7 +60,8 @@ class _HomeScreenState extends State<HomeScreen> {
               chatProvider.pageController.jumpToPage(index);
               setState(() {});
             },
-            destinations: [ // Remove const keyword here
+            destinations: [
+              // Remove const keyword here
               NavigationDestination(
                 icon: Icon(CupertinoIcons.money_dollar),
                 label: 'Stories'.tr(), // Translate label
@@ -136,13 +138,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 title: Text('tamil'.tr()),
                 onTap: () {
                   context.setLocale(const Locale('ta'));
-                  Navigator.of(dialogContext).pop();
-                },
-              ),
-               ListTile(
-                title: Text('assamese'.tr()),
-                onTap: () {
-                  context.setLocale(const Locale('as'));
                   Navigator.of(dialogContext).pop();
                 },
               ),

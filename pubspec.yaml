@@ -41,11 +41,7 @@ flutter:
     - assets/screenshots/
     - .env
     - assets/translations/ # Add translations path
-    - assets/translations/te.json
-    - assets/translations/bn.json
-    - assets/translations/mr.json
-    - assets/translations/ta.json
-    - assets/translations/as.json
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
   # For details regarding adding assets from package dependencies, see
