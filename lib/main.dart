@@ -17,7 +17,7 @@ void main() async {
 
   runApp(
     EasyLocalization(
-      supportedLocales: const [Locale('en'), Locale('hi')], // Supported locales
+      supportedLocales: const [Locale('en'), Locale('hi'), Locale('te'), Locale('bn'), Locale('mr'), Locale('ta'), Locale('as')], // Supported locales
       path: 'assets/translations', // Path to translation files
       fallbackLocale: const Locale('en'), // Fallback locale
       child: MultiProvider(

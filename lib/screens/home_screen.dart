@@ -111,6 +111,41 @@ class _HomeScreenState extends State<HomeScreen> {
                   Navigator.of(dialogContext).pop();
                 },
               ),
+              ListTile(
+                title: Text('telugu'.tr()),
+                onTap: () {
+                  context.setLocale(const Locale('te'));
+                  Navigator.of(dialogContext).pop();
+                },
+              ),
+              ListTile(
+                title: Text('bengali'.tr()),
+                onTap: () {
+                  context.setLocale(const Locale('bn'));
+                  Navigator.of(dialogContext).pop();
+                },
+              ),
+              ListTile(
+                title: Text('marathi'.tr()),
+                onTap: () {
+                  context.setLocale(const Locale('mr'));
+                  Navigator.of(dialogContext).pop();
+                },
+              ),
+              ListTile(
+                title: Text('tamil'.tr()),
+                onTap: () {
+                  context.setLocale(const Locale('ta'));
+                  Navigator.of(dialogContext).pop();
+                },
+              ),
+               ListTile(
+                title: Text('assamese'.tr()),
+                onTap: () {
+                  context.setLocale(const Locale('as'));
+                  Navigator.of(dialogContext).pop();
+                },
+              ),
             ],
           ),
           actions: <Widget>[

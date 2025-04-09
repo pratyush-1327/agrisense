@@ -3,6 +3,7 @@
   "selectLanguage": "Select Language",
   "english": "English",
   "hindi": "Hindi",
+  "cancel": "Cancel",
   "ok": "OK",
   "Stories": "Stories",
   "Chat": "Chat",
@@ -51,11 +52,5 @@
   "organicPestControlStoryContent": "Aphids are common pests that attack vegetables and fruit plants, sucking sap from leaves and causing stunted growth. Instead of using chemical pesticides, which may harm beneficial insects, farmers can use a simple neem oil spray as an organic alternative.\nNeem oil works by disrupting aphid reproduction and feeding behavior. It also repels other harmful insects like whiteflies and mealybugs. Using neem spray regularly helps control infestations while keeping the farm eco-friendly.",
   "smartIrrigationStoryTitle": "Smart Irrigation",
   "smartIrrigationStorySubtitle": "Smart Irrigation: Drip vs. Flooding",
-  "smartIrrigationStoryContent": "Water is a precious resource, and efficient irrigation techniques can significantly impact crop health and yield. Many farmers still rely on flood irrigation, where water is spread across the field, leading to wastage and soil erosion.\nAn alternative method, Drip irrigation is especially useful for crops like tomatoes, chilies, and fruit trees, where controlled water delivery improves both quality and yield. Switching to drip irrigation may require an initial investment, but it leads to long-term savings and better crop production.",
-  "telugu": "Telugu",
-  "bengali": "Bengali",
-  "marathi": "Marathi",
-  "tamil": "Tamil",
-  "assamese": "Assamese",
-  "cancel": "Cancel"
+  "smartIrrigationStoryContent": "Water is a precious resource, and efficient irrigation techniques can significantly impact crop health and yield. Many farmers still rely on flood irrigation, where water is spread across the field, leading to wastage and soil erosion.\nAn alternative method, Drip irrigation is especially useful for crops like tomatoes, chilies, and fruit trees, where controlled water delivery improves both quality and yield. Switching to drip irrigation may require an initial investment, but it leads to long-term savings and better crop production."
 }
